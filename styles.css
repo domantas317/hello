@@ -4,7 +4,7 @@ p {
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
@@ -23,7 +23,14 @@ li a:hover {
     background-color: black;
 }
 img {
-    align: center;
+    text-align: center;
     width: 400px;
     height: 400px
+}
+ h1#header {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: left;
+     margin-top: 0px;
 }
