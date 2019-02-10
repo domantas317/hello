@@ -1,7 +1,4 @@
-p {
-    text-align: center;
-    color: blue;
-}
+
 ul#top_menu {
     list-style-type: none;
     margin-bottom: 0;
@@ -14,7 +11,7 @@ ul#top_menu > li {
 }
 ul#right_menu {
     float: right;
-    border: 1px solid #ff0000;
+    border: 1px solid black;
     width: 200px;
     /*position:absolute;*/
     /*right: 0;*/
@@ -34,11 +31,6 @@ ul#right_menu > li > a {
 ul#top_menu > li > a:hover,
 ul#right_menu > li > a:hover {
     background-color: black;
-}
-img {
-    text-align: center;
-    width: 400px;
-    height: 400px
 }
 #table {
     background-color: lightblue;
@@ -62,4 +54,7 @@ img {
     color: white;
     display: block;
 }
-
+.text {
+    text-align: center;
+    font-size: 20px;
+}
