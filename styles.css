@@ -16,6 +16,7 @@ ul#right_menu {
     /*position:absolute;*/
     /*right: 0;*/
     /*top: 150px;*/
+    margin:0 0 0 20px;
 }
 ul#top_menu > li > a,
 ul#right_menu > li > a {
@@ -57,4 +58,8 @@ ul#right_menu > li > a:hover {
 .text {
     text-align: center;
     font-size: 20px;
+}
+
+#text > img {
+    margin:0 20px 0 0;
 }
