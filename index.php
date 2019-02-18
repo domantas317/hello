@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Miami</title>
     </head>
-    <body style="background-color:silver">
+    <body style="background-image: background.jpg">
     <ul id="top_menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#news">News</a></li>
