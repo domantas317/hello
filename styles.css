@@ -11,12 +11,13 @@ ul#top_menu > li {
 }
 ul#right_menu {
     float: right;
-    border: 1px solid black;
-    width: 200px;
+    border: 2px solid black;
+    width: 150px;
+    border-radius: 25px;
     /*position:absolute;*/
     /*right: 0;*/
     /*top: 150px;*/
-    margin:0 0 0 20px;
+    margin:200px 0 0 15px;
 }
 ul#top_menu > li > a,
 ul#right_menu > li > a {
@@ -32,6 +33,7 @@ ul#right_menu > li > a {
 ul#top_menu > li > a:hover,
 ul#right_menu > li > a:hover {
     background-color: black;
+    border-radius: 20px;
 }
 #table {
     background-color: lightblue;
@@ -64,6 +66,8 @@ ul#right_menu > li > a:hover {
     margin:0 20px 0 0;
 }
 body {
-    background-image: url("background-blue.jpg");
-    background-repeat: repeat-y;
+    background-image: url("sandy.jpg");
+}
+#beginning {
+    padding: 10px 10px 30px 5px;
 }
